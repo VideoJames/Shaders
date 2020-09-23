@@ -30,7 +30,7 @@ public class SmearEffect : MonoBehaviour
 
 	void LateUpdate()
 	{
-		_timer += Time.deltaTime; // TODO: Use a timer class.
+		_timer += Time.deltaTime;
 		if (_recentPositions.Count > 0)
 		{
 			if (_timer > _timeLag)
